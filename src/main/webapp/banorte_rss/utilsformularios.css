@@ -1,0 +1,34 @@
+/*utilsformulario.css v 1.0*/
+/*elementos para crear un formulario ver ejemplo en mail.html*/
+input.boton{background:url(/web/20051231095908im_/http://www.banorte.com:80/images/btnback.jpg) #FFFFFF repeat-x;border:3px double #92A0AF;border-left-color:#CCCCCC;border-top-color:#CCCCCC;color:#990000;font:bold 10px Verdana,Helvetica,Arial,sans-serif;height:28px;}
+label{background:#FFFFFF;}
+table.main{border-left-color:#B1C5D8;border-left-style:solid;border-left-width:1px;border-right-color:#B1C5D8;border-right-style:solid;border-right-width:1px;width:488px;}
+table.main td,table.main_small td{padding:10px;}
+table.main_small{border-left-color:#B1C5D8;border-left-style:solid;border-left-width:1px;border-right-color:#B1C5D8;border-right-style:solid;border-right-width:1px;width:370px;}
+td.col01{text-align:left;vertical-align:top;width:150px;}
+td.col02{text-align:left;vertical-align:top;}
+textarea.anchofijo{padding:4px;width:300px;}
+textarea.anchofijo_small{padding:4px;width:200px;}
+table.main_small2{border-left-color:#B1C5D8;border-left-style:solid;border-left-width:1px;border-right-color:#B1C5D8;border-right-style:solid;border-right-width:1px;width:387px;}
+textarea.anchofijo2{padding:4px;width:240px;}
+/*
+     FILE ARCHIVED ON 09:59:08 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:16 Dec 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 87.46 (3)
+  esindex: 0.007
+  captures_list: 101.862
+  CDXLines.iter: 10.304 (3)
+  PetaboxLoader3.datanode: 108.317 (4)
+  exclusion.robots: 0.14
+  exclusion.robots.policy: 0.131
+  RedisCDXSource: 1.633
+  PetaboxLoader3.resolve: 102.807 (2)
+  load_resource: 137.962
+*/

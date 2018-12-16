@@ -1,0 +1,27 @@
+/* Box Model Hack to correct Box Model implementations. This code only call the css in Explorer 5.x */
+@media tty {
+ i{content:"\";/*" "*/}} @import '/web/20051231101930cs_/http://www.banorte.com:80/css/explorer5.css'; /*";}
+} /* */
+/* Box Model Hack to correct Box Model implementations. This code only call the css in Explorer 5.x */
+
+/*
+     FILE ARCHIVED ON 10:19:30 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:16 Dec 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 92.447 (3)
+  esindex: 0.007
+  captures_list: 109.579
+  CDXLines.iter: 12.445 (3)
+  PetaboxLoader3.datanode: 287.382 (4)
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.169
+  RedisCDXSource: 1.315
+  PetaboxLoader3.resolve: 51.098 (2)
+  load_resource: 278.009
+*/
