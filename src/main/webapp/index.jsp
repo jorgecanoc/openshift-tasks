@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/analytics.js" type="text/javascript"></script>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script src="banorte_rss/analytics.js" type="text/javascript"></script>
 <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app12.us.archive.org';v.server_ms=443;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/ait-client-rewrite.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/ait-client-rewrite.js" charset="utf-8"></script>
 <script type="text/javascript">
 WB_wombat_Init('http://web.archive.org/web', '20060101200639', 'www.banorte.com:80');
 </script>
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/wbhack.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/wbhack.js" charset="utf-8"></script>
 <script type="text/javascript">
 __wbhack.init('http://web.archive.org/web');
 </script>
-<link rel="stylesheet" type="text/css" href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/banner-styles.css">
-<link rel="stylesheet" type="text/css" href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/iconochive.css">
+<link rel="stylesheet" type="text/css" href="banorte_rss/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="banorte_rss/iconochive.css">
 <!-- End Wayback Rewrite JS Include -->
 
 
@@ -21,16 +21,16 @@ __wbhack.init('http://web.archive.org/web');
 
 
 
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/menu.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/textos.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/tagsreplace.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/layout.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/utilsformularios.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/highpassfilter.css" type="text/css" rel="stylesheet">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/smallText.css" type="text/css" rel="alternate stylesheet" title="Small Text">
-        <link href="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/mediumText.css" type="text/css" rel="alternate stylesheet" title="Medium Text">
-        <script src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/functions.js" type="text/javascript"></script>
-        <script src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/menu.js" type="text/javascript"></script><style type="text/css">
+        <link href="banorte_rss/menu.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/textos.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/tagsreplace.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/layout.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/utilsformularios.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/highpassfilter.css" type="text/css" rel="stylesheet">
+        <link href="banorte_rss/smallText.css" type="text/css" rel="alternate stylesheet" title="Small Text">
+        <link href="banorte_rss/mediumText.css" type="text/css" rel="alternate stylesheet" title="Medium Text">
+        <script src="banorte_rss/functions.js" type="text/javascript"></script>
+        <script src="banorte_rss/menu.js" type="text/javascript"></script><style type="text/css">
 #menu1Container { visibility:hidden; left:0px; top:0px; overflow:hidden; z-index:10000; }#menu1Container, #menu1Content { position:absolute; width:170px; height:170px; clip:rect(0 170 170 0); }
 #menu2Container { visibility:hidden; left:0px; top:0px; overflow:hidden; z-index:10000; }#menu2Container, #menu2Content { position:absolute; width:170px; height:220px; clip:rect(0 170 220 0); }
 #menu3Container { visibility:hidden; left:0px; top:0px; overflow:hidden; z-index:10000; }#menu3Container, #menu3Content { position:absolute; width:161px; height:170px; clip:rect(0 161 170 0); }
@@ -51,7 +51,7 @@ __wbhack.init('http://web.archive.org/web');
 <div id="wm-ipp-inside">
   <div style="position:relative;">
     <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
-      <a href="http://web.archive.org/web/" title="Wayback Machine home page"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+      <a href="http://web.archive.org/web/" title="Wayback Machine home page"><img src="banorte_rss/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
     </div>
     <div class="r" style="float:right;">
       <div id="wm-btns" style="text-align:right;height:25px;">
@@ -89,9 +89,9 @@ __wbhack.init('http://web.archive.org/web');
 		</tr>
 		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
 		<tr class="d">
-		  <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20051231090428/http://www.banorte.com:80/portal/banorte.portal" title="09:04:28 Dec 31, 2005"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+		  <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20051231090428/http://www.banorte.com:80/portal/banorte.portal" title="09:04:28 Dec 31, 2005"><img src="banorte_rss/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
 		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 20:06:39 Jan 01, 2006">01</td>
-		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20060103185004/http://www.banorte.com:80/portal/banorte.portal" title="18:50:04 Jan 03, 2006"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20060103185004/http://www.banorte.com:80/portal/banorte.portal" title="18:50:04 Jan 03, 2006"><img src="banorte_rss/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
 		</tr>
 		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
 		<tr class="y">
@@ -144,13 +144,13 @@ __wbhack.init('http://web.archive.org/web');
     <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
     <div>
       <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
-      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/loading.gif" alt="loading"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="banorte_rss/loading.gif" alt="loading"></div>
     </div>
   </div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/timestamp.js" charset="utf-8"></script>
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/graph-calc.js" charset="utf-8"></script>
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/auto-complete.js" charset="utf-8"></script>
-<script type="text/javascript" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/toolbar.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/timestamp.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/graph-calc.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/auto-complete.js" charset="utf-8"></script>
+<script type="text/javascript" src="banorte_rss/toolbar.js" charset="utf-8"></script>
 <style type="text/css">
 body {
   margin-top:0 !important;
@@ -204,10 +204,10 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
         document.search.submit();
     }
 </script>
-<table width="772" cellspacing="0" cellpadding="0" border="0" background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_repeat.gif" align="center">
+<table width="772" cellspacing="0" cellpadding="0" border="0" background="banorte_rss/header_repeat.gif" align="center">
   <tbody><tr>
-    <td rowspan="2" width="249"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=Home"><img name="header_logo" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_logo.jpg" alt="" width="220" height="64" border="0"></a></td>
-    <td rowspan="2" width="29"><img name="header_01" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_01.gif" alt="" width="29" height="64" border="0"></td>
+    <td rowspan="2" width="249"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=Home"><img name="header_logo" src="banorte_rss/header_logo.jpg" alt="" width="220" height="64" border="0"></a></td>
+    <td rowspan="2" width="29"><img name="header_01" src="banorte_rss/header_01.gif" alt="" width="29" height="64" border="0"></td>
     <td colspan="2" class="linkstop" height="37" align="center">
 
     
@@ -242,25 +242,25 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     <td rowspan="2"> 
     <table width="100%" height="64" cellspacing="0" cellpadding="0" border="0">
       <tbody><tr>
-        <td rowspan="2" width="29"><img name="header_03" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_03.gif" alt="" width="29" height="64" border="0"></td>
+        <td rowspan="2" width="29"><img name="header_03" src="banorte_rss/header_03.gif" alt="" width="29" height="64" border="0"></td>
         <td height="41"><div id="divbuscar">
         
         <form name="search" action="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageSearchResult" method="get">
             <input type="hidden" name="_nfpb" value="true">
             <input type="hidden" name="_pageLabel" value="pageSearchResult">
             <input type="text" name="qt" maxlength="200">
-            <a href="javascript:search();"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/btnbuscar.gif" border="0"></a>
+            <a href="javascript:search();"><img src="banorte_rss/btnbuscar.gif" border="0"></a>
         </form></div></td>
       </tr>
       <tr>
-        <td height="23" align="right"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageInvestor"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/inversionistas.gif" width="170" height="23" border="0"></a></td>
+        <td height="23" align="right"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageInvestor"><img src="banorte_rss/inversionistas.gif" width="170" height="23" border="0"></a></td>
       </tr>
     </tbody></table></td>
-    <td rowspan="2" width="20"><img name="header_esq" src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_esq.gif" alt="" width="20" height="64" border="0"></td>
+    <td rowspan="2" width="20"><img name="header_esq" src="banorte_rss/header_esq.gif" alt="" width="20" height="64" border="0"></td>
   </tr>
   <tr>
-    <td width="110"><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu1');P7_Snap('header_personas','menu1Container',-1,26);" onmouseout="ypSlideOutMenu.hideMenu('menu1');"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_personas.gif" alt="" name="header_personas" width="110" height="27" border="0"></a></td>
-    <td width="110"><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu2');P7_Snap('header_empresas','menu2Container',-1,26);" onmouseout="ypSlideOutMenu.hideMenu('menu2');"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/header_empresas.gif" alt="" name="header_empresas" width="110" height="27" border="0"></a></td>
+    <td width="110"><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu1');P7_Snap('header_personas','menu1Container',-1,26);" onmouseout="ypSlideOutMenu.hideMenu('menu1');"><img src="banorte_rss/header_personas.gif" alt="" name="header_personas" width="110" height="27" border="0"></a></td>
+    <td width="110"><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu2');P7_Snap('header_empresas','menu2Container',-1,26);" onmouseout="ypSlideOutMenu.hideMenu('menu2');"><img src="banorte_rss/header_empresas.gif" alt="" name="header_empresas" width="110" height="27" border="0"></a></td>
   </tr>
 </tbody></table>    
 
@@ -521,7 +521,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
   
     
     
-    <a href="http://web.archive.org/web/20060101200639/http://www.banorte.com/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=5&amp;attributeId=153&amp;trends=1" target=""><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/Home_Hipotecario_tasa940.jpg" style="display:block" alt="Que no te ganen la casa que quieres" width="582" height="190" border="0"></a>
+    <a href="http://web.archive.org/web/20060101200639/http://www.banorte.com/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=5&amp;attributeId=153&amp;trends=1" target=""><img src="banorte_rss/Home_Hipotecario_tasa940.jpg" style="display:block" alt="Que no te ganen la casa que quieres" width="582" height="190" border="0"></a>
 
 
 
@@ -541,7 +541,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
             
     
             
-            <td rowspan="3" class="bea-portal-layout-placeholder-container-east" valign="top" background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/cder_repeat.gif">
+            <td rowspan="3" class="bea-portal-layout-placeholder-container-east" valign="top" background="banorte_rss/cder_repeat.gif">
 
 <div class="bea-portal-layout-placeholder">
 
@@ -673,16 +673,16 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
   </div>
 </div>
 </div>
-<img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/cder_repeat.gif" style="display:block" width="190" height="7">
+<img src="banorte_rss/cder_repeat.gif" style="display:block" width="190" height="7">
 <table cellspacing="0" cellpadding="0" border="0">
     <tbody><tr>
-        <td><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/bxi01.gif" width="190" height="34" border="0"></td>
+        <td><img src="banorte_rss/bxi01.gif" width="190" height="34" border="0"></td>
     </tr>
     <tr>
-        <td><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu3');P7_Snap('img_bxi','menu3Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu3')"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/bxi02.gif" name="img_bxi" id="img_bxi" width="190" height="21" border="0"></a></td>
+        <td><a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu3');P7_Snap('img_bxi','menu3Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu3')"><img src="banorte_rss/bxi02.gif" name="img_bxi" id="img_bxi" width="190" height="21" border="0"></a></td>
     </tr>
     <tr>
-        <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageGenericContent&amp;elementId=181"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/bxi03.gif" width="190" height="27" border="0"></a></td>
+        <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageGenericContent&amp;elementId=181"><img src="banorte_rss/bxi03.gif" width="190" height="27" border="0"></a></td>
     </tr>
 </tbody></table>
 
@@ -812,7 +812,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     </div>
   </div>
 </div>
-<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu4');P7_Snap('img_necesitas','menu4Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu4')"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/combo01.gif" name="img_necesitas" class="padd_5px" id="img_necesitas" height="21" border="0"></a>
+<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu4');P7_Snap('img_necesitas','menu4Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu4')"><img src="banorte_rss/combo01.gif" name="img_necesitas" class="padd_5px" id="img_necesitas" height="21" border="0"></a>
 
 
 
@@ -860,7 +860,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
   
     
     
-    <a href="http://web.archive.org/web/20060101200639/http://www.mujerbanorte.com/"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/inst_mb_3.jpg" class="padd_5px" alt="Mujer Banorte " width="190" height="90" border="0"></a>
+    <a href="http://web.archive.org/web/20060101200639/http://www.mujerbanorte.com/"><img src="banorte_rss/inst_mb_3.jpg" class="padd_5px" alt="Mujer Banorte " width="190" height="90" border="0"></a>
   
 
 
@@ -948,7 +948,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     </div>
   </div>
 </div>
-<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu5');P7_Snap('img_cotizadores','menu5Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu5')"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/combo02.gif" name="img_cotizadores" class="padd_5px" id="img_cotizadores" width="190" height="21" border="0"></a>
+<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu5');P7_Snap('img_cotizadores','menu5Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu5')"><img src="banorte_rss/combo02.gif" name="img_cotizadores" class="padd_5px" id="img_cotizadores" width="190" height="21" border="0"></a>
 
 
 
@@ -1034,7 +1034,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     </div>
 </div>
 </div>
-<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu6');P7_Snap('img_micrositios','menu6Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu6')"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/combo03.gif" name="img_micrositios" class="padd_5px" id="img_micrositios" width="190" height="21" border="0"></a>
+<a href="javascript:;" onmouseover="ypSlideOutMenu.showMenu('menu6');P7_Snap('img_micrositios','menu6Container',10,20);" onmouseout="ypSlideOutMenu.hideMenu('menu6')"><img src="banorte_rss/combo03.gif" name="img_micrositios" class="padd_5px" id="img_micrositios" width="190" height="21" border="0"></a>
 
 
 
@@ -1079,7 +1079,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
 
 
 <div class="bloques01_cont">
-<div class="bloques01"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/bloque_tit01.gif" style="display:block" width="156" height="17" border="0">
+<div class="bloques01"><img src="banorte_rss/bloque_tit01.gif" style="display:block" width="156" height="17" border="0">
   <ul class="bold">
     
       
@@ -1114,7 +1114,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
         
       
     
-    <li id="bloquesImagen"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/banortel.gif" width="156" height="110" border="0"></li>
+    <li id="bloquesImagen"><img src="banorte_rss/banortel.gif" width="156" height="110" border="0"></li>
   </ul>
 </div>
 </div>
@@ -1211,21 +1211,21 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
             
             <table class="padd_10pxtop" cellspacing="0" cellpadding="0" border="0">
               <tbody><tr>
-                <td width="160" valign="top"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=4"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/P_autoestrene2.jpg" width="150" height="100" border="0"></a></td>
+                <td width="160" valign="top"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=4"><img src="banorte_rss/P_autoestrene2.jpg" width="150" height="100" border="0"></a></td>
                 <td valign="top"><table cellspacing="0" cellpadding="0" border="0">
                     <tbody><tr>
                       <td colspan="2"><span class="txtbigred" style="display:block">Autoestrene Banorte</span>
                           <span class="subtitulo03">¿Así o más rápido?</span></td>
                     </tr>
                     <tr>
-                      <td colspan="2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/spacer.gif" width="10" height="10"></td>
+                      <td colspan="2"><img src="banorte_rss/spacer.gif" width="10" height="10"></td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="30" valign="top"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/icon01.gif" width="30" height="21"></td>
+                      <td rowspan="2" width="30" valign="top"><img src="banorte_rss/icon01.gif" width="30" height="21"></td>
                       <td class="normal01"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=4">Con AUTOESTRENE BANORTE puedes obtener el auto de tus sueños, más rápido de lo que te imaginas.</a></td>
                     </tr>
                     <tr>
-                      <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=4" class="links2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/sabermas2.gif" class="middle" width="12" height="14" border="0">quiero saber más</a></td>
+                      <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pagePersonal&amp;productId=4" class="links2"><img src="banorte_rss/sabermas2.gif" class="middle" width="12" height="14" border="0">quiero saber más</a></td>
                     </tr>
                 </tbody></table></td>
               </tr>
@@ -1233,11 +1233,11 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
           
         
       </td>                
-      <td background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif" width="20" height="5"></td>
+      <td background="banorte_rss/linea02.gif"><img src="banorte_rss/linea02.gif" width="20" height="5"></td>
     </tr>  
     <tr>
-        <td background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea01.gif">&nbsp;</td>
-        <td background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif" width="20" height="10"></td>
+        <td background="banorte_rss/linea01.gif">&nbsp;</td>
+        <td background="banorte_rss/linea02.gif"><img src="banorte_rss/linea02.gif" width="20" height="10"></td>
     </tr> 
 </tbody></table>
 
@@ -1294,21 +1294,21 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
             
             <table style="margin-top:3px;" cellspacing="0" cellpadding="0" border="0">
               <tbody><tr>
-                <td width="160" valign="top"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageBusiness&amp;productId=278"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/thmb_tpv_dll.jpg" width="150" height="100" border="0"></a></td>
+                <td width="160" valign="top"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageBusiness&amp;productId=278"><img src="banorte_rss/thmb_tpv_dll.jpg" width="150" height="100" border="0"></a></td>
                 <td valign="top"><table cellspacing="0" cellpadding="0" border="0">
                   <tbody><tr>
                     <td colspan="2"><span class="txtbigred" style="display:block">TPV en Dólares</span>
                         <span class="subtitulo03">Hable el mismo idioma con sus clientes extranjeros</span></td>
                   </tr>
                   <tr>
-                    <td colspan="2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/spacer.gif" width="10" height="10"></td>
+                    <td colspan="2"><img src="banorte_rss/spacer.gif" width="10" height="10"></td>
                   </tr>
                   <tr>
-                    <td rowspan="2" width="30" valign="top"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/icon02.gif" width="30" height="21"></td>
+                    <td rowspan="2" width="30" valign="top"><img src="banorte_rss/icon02.gif" width="30" height="21"></td>
                     <td class="normal01"><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageBusiness&amp;productId=278">Porque sabemos que sus clientes extranjeros prefieren hacer sus compras en dólares, Banorte tiene la solución.</a></td>
                   </tr>
                   <tr>
-                    <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageBusiness&amp;productId=278" class="links2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/sabermas2.gif" class="middle" width="12" height="14" border="0">quiero saber más</a></td>
+                    <td><a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageBusiness&amp;productId=278" class="links2"><img src="banorte_rss/sabermas2.gif" class="middle" width="12" height="14" border="0">quiero saber más</a></td>
                   </tr>
                 </tbody></table>
                 </td>
@@ -1317,7 +1317,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
           
         
      </td>
-     <td background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea02.gif" width="20" height="5"></td>          
+     <td background="banorte_rss/linea02.gif"><img src="banorte_rss/linea02.gif" width="20" height="5"></td>          
     </tr>
 </tbody></table>
 
@@ -1402,7 +1402,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
             
             
             <!-- Para que se vea completo 245 sino -->
-            <a href="javascript:openBrWindow('/pop_up/kit_viajero/kitviajero_invierno.htm','viajero','toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes,copyhistory=no,width=382,height=500');" class="links2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/promo_ch_kit_invierno.gif" width="147" height="107" border="0" align="left"></a>
+            <a href="javascript:openBrWindow('/pop_up/kit_viajero/kitviajero_invierno.htm','viajero','toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes,copyhistory=no,width=382,height=500');" class="links2"><img src="banorte_rss/promo_ch_kit_invierno.gif" width="147" height="107" border="0" align="left"></a>
           
         
         </div>
@@ -1411,7 +1411,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
 </tbody></table>
 <table width="146" cellspacing="0" cellpadding="0" border="0">
     <tbody><tr>
-        <td valign="top" background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea01.gif" align="left">&nbsp;</td>
+        <td valign="top" background="banorte_rss/linea01.gif" align="left">&nbsp;</td>
     </tr>
 </tbody></table>
 <!-- Banner Chico Abajo -->
@@ -1424,7 +1424,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
             
             
             <!-- Para que se vea completo 245 sino -->
-            <a href="javascript:openBrWindow('/pop_up/cashback/cahsback.htm','cashback','scrollbars=yes,width=487,height=530');" class="links2"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/promch_cash.gif" width="147" height="107" border="0" align="left"></a>
+            <a href="javascript:openBrWindow('/pop_up/cashback/cahsback.htm','cashback','scrollbars=yes,width=487,height=530');" class="links2"><img src="banorte_rss/promch_cash.gif" width="147" height="107" border="0" align="left"></a>
           
         
         </div>
@@ -1482,24 +1482,24 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
 
 <table class="homecentro" width="96%">
 <tbody><tr> 
-    <td valign="top" background="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/linea01.gif">&nbsp;</td>
+    <td valign="top" background="banorte_rss/linea01.gif">&nbsp;</td>
 </tr>
 </tbody></table>
 <div id="infobursatil_container">
 <div id="infobursatil">
   <table width="100%" cellspacing="1" cellpadding="1" border="0" bgcolor="#FFFFFF">
     <tbody><tr valign="middle" bgcolor="#EBE8D7">            
-      <td width="19"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/infob_icon.gif" width="19" height="17" border="0"></td>
+      <td width="19"><img src="banorte_rss/infob_icon.gif" width="19" height="17" border="0"></td>
       <td><table width="100%" cellspacing="0" cellpadding="0" border="0">
           <tbody><tr>
-            <td width="108" align="center"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/info_title.gif" width="108" height="17"></td>
-            <td><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/infob_sep.gif" width="6" height="17"></td>
+            <td width="108" align="center"><img src="banorte_rss/info_title.gif" width="108" height="17"></td>
+            <td><img src="banorte_rss/infob_sep.gif" width="6" height="17"></td>
         
         
             <td valign="middle" align="center"><span class="subtitulo04">IPC: </span><span class="normal02">17802.711</span><span class="small02"> (-0.169)%</span></td>
         
         
-            <td valign="middle"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/infob_sep.gif" width="6" height="17"></td>
+            <td valign="middle"><img src="banorte_rss/infob_sep.gif" width="6" height="17"></td>
             <td valign="middle" align="center"><span class="subtitulo04">DÓLAR: </span>
         
         
@@ -1508,7 +1508,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
         
         
           
-            <td valign="middle"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/infob_sep.gif" width="6" height="17"></td>
+            <td valign="middle"><img src="banorte_rss/infob_sep.gif" width="6" height="17"></td>
             <td valign="middle" align="center"><span class="subtitulo04">GFNORTE </span><span class="normal02">22.28 </span><span class="subtitulo02">1.319%</span></td>
           
         
@@ -1517,7 +1517,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     </tr>
   </tbody></table>
 </div>
-<a href="javascript:openBrWindow('/portal/portlets/bursatil/BursatilController.jpf','Bursatil','scrollbars=yes,menubar=no,toolbar=no,resizable=no,width=450,height=600')"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/vermas.gif" width="80" height="12" border="0"></a></div>
+<a href="javascript:openBrWindow('/portal/portlets/bursatil/BursatilController.jpf','Bursatil','scrollbars=yes,menubar=no,toolbar=no,resizable=no,width=450,height=600')"><img src="banorte_rss/vermas.gif" width="80" height="12" border="0"></a></div>
 
 
 
@@ -1537,7 +1537,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
         </tr>
     
         <tr>
-            <td colspan="4"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/bottom.gif" height="15"></td>
+            <td colspan="4"><img src="banorte_rss/bottom.gif" height="15"></td>
         </tr>
 
     </tbody></table>
@@ -1708,7 +1708,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
       
     
     </td>
-    <td width="22" valign="top"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/footerdiv.gif" width="22" height="70"></td>
+    <td width="22" valign="top"><img src="banorte_rss/footerdiv.gif" width="22" height="70"></td>
     <td class="footer" valign="top"><strong>Empresas del Grupo Financiero Banorte</strong><br>
         
           
@@ -1778,7 +1778,7 @@ __wm.bt(575,27,25,2,"web","http://www.banorte.com:80/portal/banorte.portal","200
     </td>      
   </tr>
   <tr>
-    <td colspan="3" class="small01" align="center"><img src="Banorte%20|%20El%20Banco%20Fuerte%20de%20M%C3%A9xico_files/logosmall.gif" style="vertical-align:middle" width="24" height="21"> 2005. Grupo Financiero Banorte. Derechos reservados. [ <a href="javascript:openBrWindow('/pop_up/terminos_legales/legales.htm','legal','scrollbars=yes,width=562,height=510')" class="small01">Términos legales</a> ][ <a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageSiteMap" class="small01">Mapa del sitio</a> ]</td>
+    <td colspan="3" class="small01" align="center"><img src="banorte_rss/logosmall.gif" style="vertical-align:middle" width="24" height="21"> 2005. Grupo Financiero Banorte. Derechos reservados. [ <a href="javascript:openBrWindow('/pop_up/terminos_legales/legales.htm','legal','scrollbars=yes,width=562,height=510')" class="small01">Términos legales</a> ][ <a href="http://web.archive.org/web/20060101200639/http://www.banorte.com:80/portal/banorte.portal?_nfpb=true&amp;_pageLabel=pageSiteMap" class="small01">Mapa del sitio</a> ]</td>
   </tr>
 </tbody></table>
 
