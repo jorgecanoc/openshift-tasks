@@ -1,0 +1,122 @@
+.wpthemeFrame {
+	margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+/* Header */
+.banorte > header .header_top nav ul.header_menu li.mmenu_trigger {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    background-image: url('https://www.banorte.com/wps/contenthandler/!ut/p/digest!nd4Vg1sPS3716lpjzgPM8g/dav/fs-type1/themes/BanorteResponsivoTheme/css/images/spriteBanorteButtons.png;wac255078396453e8c');
+    background-size: 1000px 1200px;
+    background-repeat: no-repeat;
+    background-position: -134.5px -934px;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.banorte > header .header_top nav ul.header_menu li.mmenu_trigger.active::before {
+    content: "";
+    display: block;
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    background-image: url('../images/homepage_search.png');
+    background-size: 38px 12px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.mmenu_trigger_sidebar { display: none !important; }
+.banorte > header .header_top nav ul.header_menu li.mmenu_trigger { display: none !important; }
+/* Acceso 24 movil */
+.banorte .acceso24_movil { display: none !important; }
+/* Metasoluciones */
+.banorte .homepage_options2 .homepage_options2_menu .element .overflow { display: none !important; }
+/* Metafamilias */
+.homepage_circles .homepage_circles_container .r_element { display: none !important; }
+/* Barra Herramientas y Servicios */
+.banorte .longandred_menu .barra_menu_servicios { display: none; }
+.banorte .longandred_menu .layout ul li .d_st {
+    padding: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+}
+.banorte .longandred_menu .layout ul li a { display: block; }
+/* Selector responsivo para Carrusel de Promociones */
+.carruselSelector { display: none !important; }
+/* Footer */
+.banorte .consulta { display: none !important; }
+.banorte footer .layout .wrapper .informacion_movil { display: none !important; }
+/* Bloque RWD Lista Ligas */
+.rwd-lista-ligas { display: none !important; }
+/* Widget Contacto */
+.widget_contacto .layout .error_tip {
+    display: none;
+    font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eb0029;
+}
+.widget_contacto .layout .contactTabs { display: none !important; }
+.widget_contacto .layout .contactTabs .column2A { display: block !important; }
+.widget_contacto .layout .contactTabs .column2B { display: block !important; }
+.widget_contacto {
+    -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none;
+    -moz-user-select: none; -ms-user-select: none; user-select: none;
+    height: 765px;
+}
+.widget_contacto .layout .column2A .column30 { padding-top: 38px; }
+.widget_contacto .layout .column2A .column70 {
+    width: 312.188px;
+    min-width: 312.188px;
+    position: relative;
+    padding-top: 20px;
+}
+.widget_contacto .layout .column2A .column70 .column80A {
+    width: 145px;
+    position: absolute;
+}
+.widget_contacto .layout .column2A .column70 .column80B {
+    width: 215px;
+    position: absolute;
+    right: 0;
+}
+.widget_contacto .layout .column2A .column70 .column80C {
+    width: 445px;
+    position: absolute;
+    top: 125px;
+}
+#kaptcha_user { width: 130px; }
+.widget_contacto .layout .char_counter {
+    position: relative;
+    right: 0;
+    bottom: 25px;
+    height: 0;
+    text-align: right;
+    font-size: 12px;
+    top: 0.4px;
+}
+.widget_contacto .layout .column2A p { margin: 0; }
+.widget_contacto .layout input[type=checkbox] ~ .checkbox { top: 14px; }
+.widget_contacto .layout .column2A .styled-select,
+.widget_contacto .layout .column2A input[type=text],
+.widget_contacto .layout .column2A textarea {
+    margin: 7px 0 0 0;
+}
+/* Wizards */
+#wizard_results { display: block !important; }
+.slider { display: none !important; }
+.banorte .bwizard .widget_coverimg .overlayer .content .titleWizard { display: none !important; }
+.questionWizard { display: none !important; }
+/* Landing Tools */
+.banorte .widgets_tools ul.widgets_tools_menu li { height: 146px !important; }
+.banorte .widgets_tools ul.widgets_tools_menu li ul.overflow { display: none !important; }

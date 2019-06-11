@@ -1,0 +1,66 @@
+.banorte .widget_slider_home {
+    background-color: #d7d7d7;
+    height: 190px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.banorte .widget_slider_home .overlayer{
+
+    top: 64px!important;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .background img {
+        
+    height: 190px;
+    left: -200px;
+    position: absolute;
+    width: 625px;
+}
+
+
+.banorte .widget_slider_home .overlayer .enless .element .content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    z-index: 60;
+    box-sizing: border-box;
+    height: 191px;
+    text-align: center;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.widget_slider_home .overlayer .enless .element .content p {
+    color: #FFF;
+    font-family: 'Gotham medium', Helvetica, Arial,sans-serif;
+    font-size: 20px!important;
+    position: relative;
+    background-color: transparent!important;
+    width: 100%;/*tamaño se ajusta automaticamente en el corrausel_home.js  (L337)*/
+    margin: 0 auto;
+    height: 55px!Important;
+    padding: 15px 0px 15px 0px;
+    top: 10px;
+    line-height: 25px!important;
+}
+
+.banorte .widget_slider_home .overlayer .controls .navDots {
+    top: 170px;
+}
+
+
+.acceso24_movil{
+    position: relative;
+}
+
+a.texto-dos {
+    font-size: 13px!important;
+    display: inline-block;
+    margin-top: 7px!important;
+}
+.banorte .widget_slider_home .overlayer .enless .element .content .layout{
+    padding: 0px 5px!important;
+}

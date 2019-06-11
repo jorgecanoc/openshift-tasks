@@ -1,0 +1,443 @@
+
+$(function () {
+	var slider2DIV = '.widget_slider_home',
+		enlessDIV = slider2DIV+' .enless',
+		element = enlessDIV+' .element',
+		elementWidth = $(element+':eq(0)').width(),
+		imageWidth = $(element+' img').width(),
+		count = $(element).length,
+		INDEX = 1,
+		autoloop = true,
+		elementsInSlider = $(element).length;
+
+
+
+
+
+
+	// BEFORE NOTHING COUNT!
+	function countandFix($count) {
+		if ($count == 1) {
+			// DUPLICATE THE SAME 4 TIMES
+			var xyz = $(element+':first');
+			
+			for (var a = 0; a < 3; a++) {
+				$(element+':first').clone().addClass('cloned').appendTo($(enlessDIV));
+			}
+		} else if($count > 1 && $count < 4) {
+			// DUPLICATES EVERYTHING
+			$(element).each( function( index ) {
+				$(this).clone().insertAfter($(element+':last'));
+			});
+		}
+	}
+
+	countandFix(count);
+
+	//2015-April-06: Fix para sliders que tienen menos de 3 elementos (Fix for sliders with less than 3 elements)
+	if (elementsInSlider > 3)
+		count = $(element).length;
+	else
+		count = elementsInSlider;
+
+	// ANIMATION VARS
+	var hide = 0,
+		show = 1.0,
+		left_show = 0,
+		left_hide = 30,
+		alphaout = 0.3,
+		innervel = 400,
+		interval = 200,
+		velocidad = 1000,
+		velocityFixed = velocidad + 201,
+		looptime = 7000;
+	// ---------------------------------
+
+	// Put every element in his place
+	$(element+':eq(0)').addClass('prev');
+	$(element+':eq(1)').addClass('now');
+	$(element+':eq(2)').addClass('next');
+	$(element+' .background').css('opacity', alphaout );
+	$(enlessDIV).width(imageWidth*count).css('left', imageWidth*-1);
+	$(element+' h1, '+element+' p').css('opacity', hide).css('left', left_hide );
+	$(element).css('left', imageWidth*3);
+	
+	for(var i = 0; i < 3; i++) {
+		var pos = i * imageWidth;
+		if (i==0) {
+			pos = pos - 30;
+		} else if (i == 2) {
+			pos = pos + 30;
+		}
+		$(element+':eq('+i+')').css('left',pos);
+	}
+
+	// Create dots
+	var dotsDIV = '.navDots',
+		ulDOTS = dotsDIV+' ul';
+
+	for (var dot = 0; dot<count; dot++) {
+		//$(ulDOTS).append('<li data-id="' + dot + '" data-action="dot" >[Component id="5c71ddec-b549-4e14-874f-83d16d310545:NC9jb250ZW5pZG8gd2ViIHNpdGlvIHB1YmxpY28gYmFub3J0ZS9jb21wb25lbnRlcyBwYXJhIHdpZGdldHMgZnJvbnRlbmQvc3BhY2VyIChpbWFnZW4p" name="contenido web sitio publico banorte/componentes para widgets frontend/spacer (imagen)" format="url" htmlencode="true" start="<img border=\'0\' height=\'100%\' width=\'100%\' src=\'" end="\' />"]</li>'); 
+		$(ulDOTS).append('<li data-id="' + dot + '" data-action="dot" ><img src="/BanorteSitioPublicoTheme/themes/html/BanorteSitioPublicoTheme/images/spacer.png" width="100%" height="100%" /></li>'); 
+	}
+
+	$(ulDOTS+' li:eq('+INDEX+')').addClass('active');
+	// Dynamic move dots
+	function moveDots ($index) {
+		$(ulDOTS+' li').removeClass('active');
+		$(ulDOTS+' li:eq('+$index+')').addClass('active');
+	}
+
+	// ANIMATES CONTENT
+	function animateInOut ($parent, $InOut) {
+		if ($InOut == 'in') {
+			$($parent+' .background').animate({ opacity: show });
+			$($parent+' h1').animate({ opacity:show , left: left_show }, innervel, 'swing');
+			$($parent+' p').animate({ opacity: show , left: left_show }, (innervel+200), 'swing');
+			setTimeout(function(){}, interval);
+			enmovimiento = false;
+		}
+		if ($InOut == 'out') {
+			$($parent+' .background').animate({ opacity: alphaout });
+			$($parent+' h1').animate({ opacity: hide, left: left_hide }, innervel);
+			$($parent+' p').animate({ opacity: hide, left: left_hide }, innervel);
+		}
+
+	}
+	// SETUP
+	animateInOut(element + '.now', 'in');
+	// MOVE THE SLIDERS 
+	var enmovimiento = false;
+	
+	function getNextPrev ($index) {
+		if ($index == 0) {
+			$prev = (count - 1);
+			$next = parseInt($index) + 1;
+		} else if ($index == (count - 1) ) {
+			$prev = parseInt($index) - 1;
+			$next = 0;
+		} else {
+			$prev = parseInt($index) - 1;
+			$next = parseInt($index) + 1;
+		}
+	}
+
+	function moveSlider ($action, $who) {
+		enmovimiento = true;
+		if ($action == 'dot') {
+			getNextPrev($who);
+			// Distancia de INDEX to count
+			var cuenta = parseInt(count),
+				zero = parseInt(INDEX);
+
+			if ($who > INDEX) {
+				var der = $who - INDEX,
+					izq = INDEX + (count - $who);
+
+			} else {
+				var der = cuenta - parseInt(INDEX) + parseInt($who);
+					izq = INDEX - $who;
+			}
+
+			if (izq < der) {
+				vamos = 'left';
+				resultado = izq;
+			} else {
+				vamos = 'right';
+				resultado = der;
+			}
+			for (var i = 0; i < resultado; i++ ) {
+				setTimeout(function () {
+					moveSlider(vamos,'');
+				}, velocityFixed * i);
+			}
+		}
+		if ($action == 'left') {
+			// NEXT > NOT VISIBLE
+			$(element + '.next').animate({
+				left: imageWidth*3,
+				opacity: 0
+			}, velocidad, 'swing', function () {
+				$(this).removeClass('next');
+			});
+
+			// NOTVISIBLE > REMOVE > INSERT
+			$(element+':last').remove()
+			.insertBefore($(element + ':first'))
+			.css('left', imageWidth * -1 ).animate({
+				left: -30,
+				opacity:1
+			}, velocidad, 'swing', function () {
+				$(this).addClass('prev');
+			});
+
+			// NOW > NEXT
+			animateInOut(element + '.now', 'out');
+			$(element + '.now').removeClass('now').addClass('next').animate({
+				left: (imageWidth * 2) + 30,
+				opacity: 1
+			}, velocidad, 'swing' );
+			
+			// PREV > NOW
+			$(element+'.prev').removeClass('prev').addClass('now').animate({
+				left: imageWidth,
+				opacity: 1
+			}, velocidad, 'swing', function () {
+				animateInOut(element + '.now', 'in');
+			});
+			
+			
+			
+			if (INDEX == 0)
+				INDEX = (count - 1);
+			else
+				INDEX = INDEX - 1;
+
+			// Put the next INDEX
+			getNextPrev(INDEX);
+			$(controlsDIV + ' .left').attr('data-id', $prev);
+			$(controlsDIV + ' .right').attr('data-id', $next);
+
+		}
+		if ($action == 'right') {
+
+			// PREV > REMOVE > INSERT
+			$(element+'.prev').animate({
+				left: imageWidth * -1,
+				opacity: 0
+			}, velocidad, 'swing', function () {
+				$(this).removeClass('prev')
+				.remove().insertAfter($(element + ':last'))
+				.css('left', imageWidth * 3 );
+			});
+			// NOW > PREV
+			animateInOut(element + '.now', 'out');
+			$(element + '.now').removeClass('now').addClass('prev').animate({
+				left: -30, // 0,
+				opacity: 1
+			}, velocidad, 'swing' );
+			// NEXT > NOW
+			$(element+'.next').removeClass('next').addClass('now').animate({
+				left: imageWidth,
+				opacity: 1
+			}, velocidad, 'swing', function () {
+				animateInOut(element + '.now', 'in');
+			});
+			// NOT VISIBLE > NEXT
+			$(element + '.now').next().addClass('next').animate({
+				left: (imageWidth * 2) + 30,
+				opacity: 1
+			}, velocidad, 'swing' );
+
+			if ( (INDEX + 1) == count)
+				INDEX = 0;
+			else 
+				INDEX = INDEX + 1;
+
+			// Put the next INDEX
+			getNextPrev(INDEX);
+			$(controlsDIV+' .left').attr('data-id', $prev);
+			$(controlsDIV+' .right').attr('data-id', $next);
+
+		}
+		moveDots(INDEX);
+	}
+
+	// TRIGGERS
+	var controlsDIV = slider2DIV+' .controls';
+
+	$(dotsDIV + ' ul li:not(active), ' + controlsDIV + ' .left, ' + controlsDIV + ' .right').click(function () {
+		if (enmovimiento == false) {
+			var action = $(this).attr('data-action'),
+				who = $(this).attr('data-id');
+
+			if (who != INDEX) {
+				moveSlider(action, who);
+			}
+			autoloop = false;
+		}
+
+	});
+	// DRAGABLE // jQuery UI must be enabled!
+	var counts = [ 0, 0, 0 ],
+		enlessSTARTpos = $(enlessDIV).position().left,
+		onetimepls = true,
+		howtomove = 200;
+
+	$(enlessDIV).draggable({
+	    handle: '.element.now',
+	    cursor: 'e-resize', 
+	    axis: 'x',
+	    contaiment: 'parent',
+	    revert: true, //'invalid',
+	    start: function () {
+	        autoloop = false;
+	    	counts[ 0 ]++;
+	    },
+	    drag: function (event, ui) {
+	    	counts[ 1 ]++;
+	    	var enlessNOWpos = $(enlessDIV).position().left;
+	    	
+	    	if (enlessNOWpos < (enlessSTARTpos - howtomove) ) {
+	    		if (onetimepls == true) {
+	    			moveSlider('right', '');
+	    			onetimepls = false;
+	    		}
+	    	}
+	    	if (enlessNOWpos > (enlessSTARTpos + howtomove) ) {
+	    		if (onetimepls == true) {
+	    			moveSlider('left', '');
+	    			onetimepls = false;
+	    		}
+	    	}
+	    },
+	    stop: function () {
+	    	 counts[ 2 ]++;
+	    	 counts[ 1 ] = 0;
+	    	 onetimepls = true;
+	    }
+	});
+
+	// AUTOSLIDER
+	var onetimeonly = true;
+	function autoslider() {
+	    if (autoloop == true) {
+	    	if (onetimeonly == true) {
+	    		onetimeonly = false;
+	    	}
+		    if (INDEX < count) {
+		        moveSlider('right', '');
+		    }
+		    setTimeout(autoslider, looptime);
+		}
+	}
+	setTimeout(autoslider, looptime);
+
+
+	$(window).resize(function(e) {
+
+            rezizeMenu();
+
+        });
+
+	//listener para animaciones parallax
+	window.addEventListener("scroll", function(event) {
+  
+	    var top = $(document).scrollTop();
+	       
+	    var topInicial=$(".banorte .widget_slider_home .overlayer").css("top");
+
+	   // console.info("topInicial:"+topInicial);
+
+	   var width4Nats=$(".widget_slider_home").css("width");
+	  
+	    if(top>799)// quitamos fixed de carrusel principal home
+	    {
+	    	$(".banorte .widget_slider_home .overlayer").css("position","relative");
+	    	$(".banorte .widget_slider_home .overlayer").css("top","0px");
+	    }
+	    else
+	    {
+              var valPosition="relative";
+              
+              if(width4Nats.substring(0, width4Nats.indexOf("px"))<1840)
+	            {
+					valPosition="fixed";
+	            }	             
+
+	    	$(".banorte .widget_slider_home .overlayer").css("position",valPosition);
+	    	$(".banorte .widget_slider_home .overlayer").css("top","auto");
+	    }
+	   //console.info("top:"+top);
+  
+	}, false);
+
+	function rezizeMenu()
+	{
+	        var width4Nats=$(".widget_slider_home").css("width");
+	        var widthP="40%";
+
+            $(".widget_slider_home .controls").css("width","100%");
+            $(".widget_slider_home .navDots").css("width",width4Nats);
+
+            $(".widget_slider_home .navDots").css("width",width4Nats);	
+
+            
+            if(width4Nats.substring(0, width4Nats.indexOf("px"))>1823)
+            {
+				width4Nats="1824px";
+            }
+            else if(width4Nats.substring(0, width4Nats.indexOf("px"))<=1023)
+            {
+				widthP="85%";
+            }
+
+            $(".banorte .widget_slider_home .overlayer .enless .element .content").css("width",width4Nats);
+            $(".banorte .widget_slider_home .overlayer .enless .element .content p").css("width",widthP);
+
+            //console.info("top-header:"+$(".header_top").css("top"));
+
+
+	}
+
+	 $(".banorte .widget_slider_home .overlayer .controls .navDots ul li").hide();
+
+	rezizeMenu();
+
+});
+
+// OPEN URL IN NEW TAB
+$(function(){
+   //BOTON PLECA BANNER PRINCIPAL
+    //$(".empresas .widget_slider_home .overlayer .enless .element .content p a").on("click", function(event){
+    //});
+
+	//.widget_slider_home .element
+    $(".banorte .widget_slider_home .overlayer .enless .element .background img").click(function( event ) {
+        //TAGGEO BANNER y PLECA HOME EMPRESAS
+        if(getDomain() == "www.banorte"){
+        	gaTagCreate('send', 'event', 'Banorte Home - Banner principal', 'Banner', $(this).parent().parent().children(".content").children(".layout").children(".texto-princ").text());
+		}
+		event.preventDefault();
+        var url = null;
+        url = $(this).parent().parent().attr('data_url');
+        if(url != null){
+	        url = url.split("#", 2);
+
+			if(!url[1]) {
+				window.location.href = url[0];
+			} else {
+				if(url[1].trim()=="popup") {
+					window.open(url[0], '_portalPopup');
+				}
+			}
+        }
+
+		return false;
+    });
+    $(".banorte .widget_slider_home .overlayer .enless .element .content p a").click(function( event ) {
+        //TAGGEO BANNER y PLECA HOME EMPRESAS
+        if(getDomain() == "www.banorte"){
+       		gaTagCreate('send', 'event', 'Banorte Home - Banner principal', 'Pleca', $(this).parent().text());
+       	}
+		event.preventDefault();
+        var url = null;
+	    url = $(this).attr('href');
+        if(url != null){
+	        url = url.split("#", 2);
+
+			if(!url[1]) {
+				window.location.href = url[0];
+			} else {
+				if(url[1].trim()=="popup") {
+					window.open(url[0], '_portalPopup');
+				}
+			}
+        }
+
+		return false;
+   });
+
+
+
+});

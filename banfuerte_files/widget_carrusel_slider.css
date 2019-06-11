@@ -1,0 +1,222 @@
+.widget_login .layout .login_box, .widget_login_inside .layout .login_box {
+	top: 37px;
+}
+
+.banorte .widget_slider_home {
+  background-color: #d7d7d7;
+  height: 524px;
+  overflow: hidden;
+  width: 100%;
+}
+.banorte .widget_slider_home .overlayer {
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;/*para efecto parallax - fixed*/
+    width: 1824px;
+    top: auto;/*para efecto parallax - 105px*/
+}
+.banorte .widget_slider_home .overlayer .enless {
+  height: 100%;
+  left: -1824px;
+  position: absolute;
+  top: 0;
+  width: 1824px;
+}
+.banorte .widget_slider_home .overlayer .enless .element {
+  /*z-index: 104;*/
+  height: inherit;
+  left: 0;
+  margin: 0 auto;
+  opacity: 0.0;
+  position: absolute;
+  top: 0;
+  width: 1824px;
+}
+.banorte .widget_slider_home .overlayer .enless .element.prev,
+.banorte .widget_slider_home .overlayer .enless .element.now,
+.banorte .widget_slider_home .overlayer .enless .element.next {
+  opacity: 1.0;
+}
+.banorte .widget_slider_home .overlayer .enless .element.now {
+  /*z-index: 105;*/
+}
+.banorte .widget_slider_home .overlayer .enless .element.now .background::before {
+  -moz-box-shadow: 0 0 0 4px white inset;
+  -moz-transition: all 1s ;
+  -o-box-shadow: 0 0 0 4px white inset;
+  -o-transition: all 1s ;
+  -webkit-box-shadow: 0 0 0 4px white inset;
+  -webkit-transition: all 1s ;
+  background-color: transparent;
+  box-shadow: 0 0 0 4px white inset;
+  transition: all 1s ;
+}
+.banorte .widget_slider_home .overlayer .enless .element.now .background img {
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5) ;
+  -o-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5) ;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5) ;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5) ;
+}
+.banorte .widget_slider_home .overlayer .enless .element .content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    z-index: 60;
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    top: 415px;
+    background-color: rgba(78, 64, 68, 0.6);
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .content .layout{
+    width: 972px;
+    margin: 0 auto;
+    padding: 0 26px;
+    height: auto;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .content h1 {
+  color: #eb0029;
+  font-family: 'Gotham Medium', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .content p {
+  color: #FFF;
+  font-family: 'Gotham medium', Helvetica, Arial,sans-serif;
+  font-size: 40px;
+  position: relative;
+  width: 970px;
+  margin: 0 auto;
+  height: auto;
+  padding: 20px 0px 20px 0px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .content p .link{
+    color:#dcc5c5;
+    display: block;
+    font-size: 23px;
+    margin-top: 25px;
+    text-align: left;  
+    font-family: 'Gotham Light', Helvetica, Arial, sans-serif!important;  
+    background: transparent url("/wps/contenthandler/!ut/p/digest!qjbisVlx3ppxWCXHPdqCjw/dav/fs-type1/themes/BanorteResponsivoTheme/css/banorte/new/icono-flecha.png") no-repeat scroll right center;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .content p .link:hover{
+  color: white;
+}
+
+.banorte .widget_slider_home .overlayer .enless .element .background {
+  /*z-index: 106;*/
+  height: inherit;
+  overflow: visible;
+  position: relative;
+}
+.banorte .widget_slider_home .overlayer .enless .element .background img {
+  /*z-index: 107;*/
+  height: auto;
+  position: absolute;
+  width: 1824px;
+}
+.banorte .widget_slider_home .overlayer .enless .element .background::before {
+  -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0) inset;
+  -moz-transition: all 2s ;
+  -o-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0) inset;
+  -o-transition: all 2s ;
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0) inset;
+  -webkit-transition: all 2s ;
+  /*z-index: 108;*/
+  background-color: rgba(184, 184, 184, 0.8);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0) inset;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -27.5px;
+  position: absolute;
+  top: 0;
+  transition: all 2s ;
+  width: 1824px;
+}
+.banorte .widget_slider_home .overlayer .controls {
+    width: 972px;
+    height: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+.banorte .widget_slider_home .overlayer .controls .left,
+.banorte .widget_slider_home .overlayer .controls .right {
+  background-image: url('../images/spriteGenericButtons.png');
+  background-repeat: no-repeat;
+  background-size: 1824px 900px;
+  cursor: pointer;
+  height: 90px;
+  position: absolute;
+  top: 190px;
+  width: 50px;
+  z-index: 110;
+}
+.banorte .widget_slider_home .overlayer .controls .left {
+  background-position: -275px -52.5px;
+  left: 0;
+}
+.banorte .widget_slider_home .overlayer .controls .right {
+  background-position: -475px -52.5px;
+  right: 0;
+}
+.banorte .widget_slider_home .overlayer .controls .navDots {
+    bottom: 37px;
+    position: relative;
+    top: 490px;
+    width: 100%;
+    z-index: 61;
+ 
+}
+.banorte .widget_slider_home .overlayer .controls .navDots ul li {
+	display:inline-block;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #B01657;
+    height: 15px;
+    margin: 0 5px;
+    outline: 0;
+    text-indent: -9999px;
+    width: 15px;
+    cursor: pointer;
+  background: radial-gradient(ellipse at center center , rgba(255, 255, 255, 0) 24%, rgba(255, 255, 255, 0) 31%, rgba(255, 255, 255, 0) 34%, rgba(255, 255, 255, 0) 71%) repeat scroll 0 0 transparent;
+}
+.banorte .widget_slider_home .overlayer .controls .navDots ul li.active {
+  background: #B01657;
+}
+
+
+@import url('https://www.banorte.com/wps/contenthandler/!ut/p/digest!nd4Vg1sPS3716lpjzgPM8g/dav/fs-type1/themes/BanorteResponsivoTheme/css/banorte/new/menuHeader.css;wabba87160bc12daaf');
+
+@media only screen and (min-width: 1840px) {
+
+.banorte .widget_slider_home .overlayer {    
+    position: relative;/*para efecto parallax - fixed*/
+    width: 1824px;
+    top: auto;/*para efecto parallax - 105px*/
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1313px) {
+
+.banorte .widget_slider_home .overlayer .enless .element .background img {
+  /*z-index: 107;*/
+  height: auto;
+  position: absolute;
+  left:-550px;
+  width: 1824px;
+}

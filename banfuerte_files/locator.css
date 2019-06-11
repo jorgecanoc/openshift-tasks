@@ -1,0 +1,227 @@
+/**
+ * @author cball | ibm, matersys
+ * @version 0.9.x
+ * 
+ * cambiar <%=request.getContextPath()%> por ..
+ */
+.standalone_map {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#map_wrapper {
+	display: none;
+	position: relative;
+}
+
+#map-canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+#pano {
+	position: absolute;
+	display: none;
+	left: 0px;
+	top: 120px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 300;
+	background-color: #111;
+}
+/* evita que se pueda seleccionar el texto de la interfaz */
+.widget_map .interactive_filters,.widget_map .tool_line,.interactive_resultados,.widget_map .localizador-wrapper
+	{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.widget_map .navbar .layout .interactive_resultados {
+	display: none;
+}
+/* TODO: ajuste provisional que reduce el padding del elemento de lista */
+.widget_map .navbar .layout .interactive_resultados .resultados ul li {
+	padding: 11px 0 5px 11px;
+}
+/* TODO: ajuste provisional para que entre los títulos y las descripciones haya menos espacio */
+.widget_map .navbar .layout .interactive_resultados .resultados ul li .column3A,.widget_map .navbar .layout .interactive_resultados .resultados ul li .column3B,.widget_map .navbar .layout .interactive_resultados .resultados ul li .column3C
+	{
+	min-height: 38px;
+}
+/* Neutraliza el scroll y obliga a los infobox a ser autoajustables en altura (height) */
+.widget_map .resultado_selected,.widget_map .resultado_selected .boxed,.widget_map .resultado_selected .boxed .content,.widget_map .resultado_selected .boxed .content .column1A
+	{
+	height: auto;
+}
+
+.widget_map .resultado_selected .boxed .content .column2A {
+	min-height: 240px;
+	/*margin-top: 9px;*/
+}
+
+.widget_map .resultado_selected .boxed .content .streetview {
+	padding-top: 0px;
+}
+
+.widget_map .resultado_selected .boxed .content .column1A .title img,.widget_map .resultado_selected .boxed .content .column1A .title div.mapicon
+	{
+	margin-top: -10px;
+}
+
+.widget_map .resultado_selected .boxed .content .column1A .title {
+	min-height: 28px;
+	margin-top: 9px;
+}
+
+.gm-sm {
+	display: none !important;
+}
+
+.columns1A>.title>h1 {
+	padding: 5px 0 0 0;
+}
+
+.fullScreenWM {
+	position: absolute;
+	top: 1px;
+	left: 27px;
+	background-color: #AAA;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.nomap .localizador-wrapper .resultados .filtros li label {
+	width: 150px;
+	text-align: left;
+}
+
+.widget_map .nomap .localizador-wrapper .localizador .localizador-container .paso.paso-2
+	{
+	height: 98px !important;
+}
+
+.widget_map .nomap .localizador-wrapper .localizador .localizador-container .paso.paso-5
+	{
+	float: left !important;
+}
+
+.widget_map .nomap .localizador-wrapper  input.cr-text {
+	width: 195px;
+	height: 35px;
+	margin-right: 30px;
+	background: #fefefe;
+	margin-top: 6px;
+	border: none;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados,.widget_map .nomap .localizador-wrapper .resultados-container,.widget_map .nomap .localizador-wrapper .resultados-container .lista-resultados
+	/*,
+.widget_map .nomap .localizador-wrapper .resultados-container .lista-resultados ul.lista */
+	{
+	height: 440px !important; /* 580px en local */
+	max-height: 1530px !important;
+	font-size: 16px !important;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados-container .lista-resultados ul.lista
+	{
+	height: 400px !important; /* antes 540 */
+	max-height: 1530px !important;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados-container .lista-resultados ul.lista .direccion
+	{
+	padding-left: 60px;
+}
+
+.widget_map .navbar {
+	height: 94px;
+}
+
+.widget_map .navbar .alert_open {
+	height: 117px;
+}
+
+.widget_map .navbar .layout .interactive_filters .alert_open {
+	top: 107px;
+}
+
+.widget_map .navbar .autocomplete_disbled {
+	background-color: #e4e4e4;
+}
+
+.widget_map .nomap .alert .mensaje-error-geo {
+	padding-top: 10px;
+}
+
+.widget_map .nomap.error-message .close_widget {
+	top: 50px;
+}
+/**
+CORRECCIONES DE ESTILOS PARA INTEGRACIÓN
+**/
+.widget_map .nomap .filtros {
+	margin-left: 0px;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados .resultados-container
+	{
+	width: 745px;
+	margin-left: 20px;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados {
+	width: 960px;
+	overflow: hidden;
+}
+
+,
+.widget_map .nomap .localizador-wrapper .resultados,.widget_map .nomap .localizador-wrapper .resultados-container
+	{
+	margin-left: 20px;
+}
+
+.widget_map .nomap .buscarcr-wrapper .resultados-container .header .header-container,.widget_map .nomap .localizador-wrapper .resultados .resultados-container .header .header-container
+	{
+	font-size: 16px !important;
+	font-weight: bold;
+}
+
+.widget_map .nomap .localizador-wrapper .resultados-container .lista-resultados ul.lista
+	{
+	
+}
+
+.widget_map .nomap {
+	padding: 0;
+}
+
+.widget_map .nomap .alert {
+	top: -5px;
+}
+
+.widget_map .nomap .alert .mensaje-cerrar {
+	top: 7px;
+	right: 30px;
+}
+
+.widget_map .nomap .alert {
+	position: relative;
+}
+
+.widget_map .nomap .localizador-wrapper .localizador .localizador-container .paso.paso-5
+	{
+	padding-top: 58px;
+}

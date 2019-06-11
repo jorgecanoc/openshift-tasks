@@ -1,0 +1,237 @@
+    .welcome_widget {
+        cursor: pointer;
+        position: fixed;
+        margin-right: -300px;
+        width: 209px;
+        color: white;
+        padding: 10px;
+        background: #eb0029;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: #FFFFFF solid 3px;
+        bottom: 300px;
+        right: 16px;
+        z-index: 999;
+    }
+
+    .welcome_widget:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 16px 16px 0 0px;
+        border-color: #eb0029 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        bottom: -16px;
+        left: 175px;
+        transform: rotate(-270deg);
+    }
+
+    .welcome_widget:before {
+        content: ' ';
+        position: absolute;
+        border-style: solid;
+        border-width: 21px 22px 0 0px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        bottom: -22px;
+        left: 171px;
+        transform: rotate(-270deg);
+    }
+
+    .widget_chat_layout{
+	    z-index: 150;
+    }
+
+    .widget_chat_layout .widget_chat.open{
+    	width: 260px;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.8);
+        /*display: none;*/
+        z-index: 999;
+    }
+
+    .widget_chat_layout .widget_chat{
+    	position: fixed;
+        top: 160px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        overflow: hidden;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        margin-right: -300px;
+    }
+
+    .widget_chat_layout .widget_chat.open .headline{
+    	    background-color: #eb0029;
+
+    }
+
+    .widget_chat_layout .widget_chat.open .headline .chat_trigger{
+    	cursor: default;
+           height: 55px;
+    padding-top: 5px;
+    }
+
+    .widget_chat_layout .widget_chat .headline h1{
+    	float: left;
+        font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        color: #FFF;
+        text-transform: uppercase;
+        width: 160px;
+        margin: 10px 0 0 60px;
+        padding: 0;
+        line-height: 19px;
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .widget_chat_layout .widget_chat.open .headline .close{
+    	    display: block;
+    }
+
+    .widget_chat_layout .widget_chat .headline .close:hover {
+    background-position: -222.5px -222.5px;
+}
+
+    .widget_chat_layout .widget_chat .headline .close{
+    	display: none;
+        position: absolute;
+        z-index: 92;
+        right: 0;
+        top: 0;
+        width: 55px;
+        height: 55px;
+        cursor: pointer;
+        background-image: url('https://www.banorte.com/wps/contenthandler/banorte/!ut/p/digest!16UETMRytiS9v7s0Lasgfg/dav/fs-type1/themes/BanorteResponsivoTheme/css/images/spriteButtons.png;waffa1b904dcc86b7d');
+        background-size: 1000px 1200px;
+        background-repeat: no-repeat;
+        background-position: -322.5px -222.5px;
+    }
+
+    .widget_chat_layout .widget_chat .content{
+    	padding: 10px 10px 10px 10px;
+        font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        color: #4e4044;
+    }
+
+    .widget_chat_layout .widget_chat .content .error_tip{
+        color:red;
+        width: 250px;
+        text-align: center!important;
+    }
+
+    .widget_chat_layout .widget_chat .footer{
+    	padding: 0 0 10px 10px;
+        line-height: 49px;
+        height: 49px;
+    }
+
+    .widget_chat_layout .widget_chat h2{
+    	text-align: center;
+        color: white;
+        width: 190px;
+        margin-left: 15px;
+    }
+    .widget_chat_layout .content .column50A{
+    	text-align: center;
+    	height: auto;
+    }
+    .widget_chat_layout .content .column50A input[type=text]{
+    	margin-left: 0px !important;
+        width: 223px;
+        padding: 8px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 7px 0 0 0;
+        line-height: 35px;
+        height: 35px;
+        font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #4e4044;    
+        background-color: white;
+    }
+
+    /*Pulse*/
+    .pulse2 {
+        -webkit-animation: pulse2 3s cubic-bezier(0.42, 0, 0.61, 0.01) infinite;
+        -moz-animation: pulse2 3s cubic-bezier(0.42, 0, 0.61, 0.01) infinite;
+        -ms-animation: pulse2 3s cubic-bezier(0.42, 0, 0.61, 0.01) infinite;
+        animation: pulse2 3s cubic-bezier(0.42, 0, 0.61, 0.01) infinite;
+    }
+
+    @keyframes "pulse2" {
+        0% {
+           -webkit-transform: scale(1);
+           -moz-transform: scale(1);
+           -o-transform: scale(1);
+           -ms-transform: scale(1);
+           transform: scale(1);
+        }
+        50% {
+           -webkit-transform: scale(0.9);
+           -moz-transform: scale(0.9);
+           -o-transform: scale(0.9);
+           -ms-transform: scale(0.9);
+           transform: scale(0.9);
+        }
+        100% {
+           -webkit-transform: scale(1);
+           -moz-transform: scale(1);
+           -o-transform: scale(1);
+           -ms-transform: scale(1);
+           transform: scale(1);
+        }
+    }
+
+    @-moz-keyframes pulse2 {
+        0% {
+            -moz-transform: scale(1);
+            transform: scale(1);
+        }
+        50% {
+            -moz-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        100% {
+            -moz-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    @-webkit-keyframes "pulse2" {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        50% {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    @-ms-keyframes "pulse2" {
+        0% {
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+        50% {
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        100% {
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+    }

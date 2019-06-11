@@ -1,0 +1,43 @@
+/*
+* Martes 15 dic 2015 V.2.
+*/
+#suggestions {
+    position: absolute;
+    list-style-type: none;
+    margin-top: 49px;
+    z-index: 10000;
+    background-color: white;
+    width: 100%;
+    border-top: none;
+    font-family: 'Gotham Book', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #4e4044;
+    top: 484px;
+    width: 463px;
+    margin: 0 auto;
+    left: 671px;
+}
+
+#suggestions li {
+	padding: 10px;
+}
+
+.gsa_suggestion:hover, .hovered {
+    color:white !important;
+    cursor: pointer;
+}
+
+
+
+.sg_banorte:hover, .sg_empresas:hover, .sg_banorte.hovered, .sg_empresas.hovered {
+    background: #EB0029;
+}
+
+.sg_ixe:hover, .sg_ixe.hovered, .sg_banorte_pruebas:hover, .sg_banorte_pruebas.hovered {
+    background: #008375;
+}
+
+.sg_ixe-xima:hover, .sg_ixe-xima.hovered, .sg_:hover, .sg_.hovered  {
+   background: #3d133d !important;
+}
+
