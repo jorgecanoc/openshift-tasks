@@ -1,0 +1,46 @@
+/*menu.css v 1.1*/
+img.imgBloque, .menu, .menu div {display:block;}
+.menu{
+	filter:Alpha(Opacity=95);
+	position: absolute;
+	top: -400px;
+}
+.menu div {padding:8px 2px 6px 4px;margin-right:1px; margin-bottom:1px; border:1px solid #BFBFBE; background:#E6E6E6;	}
+.menu .o li, .menu .o {margin:0; padding:0;}
+.menu .o li, .menu .o a {
+	/*width: 140px;*/
+	background-image: url(/web/20051231081449im_/http://www.banorte.com:80/images/square.gif);
+	background-repeat: no-repeat;
+	list-style-image: none;
+	list-style-type: none;
+	color:#6C6C6B;
+	font-size:9px;font-weight:normal;
+	text-decoration:none;
+	padding-bottom:4px;
+  }
+ .menu .o li{
+padding-left:6px;  } 
+ .menu .o a {
+	background-image: none;
+} 
+/*
+     FILE ARCHIVED ON 08:14:49 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:16 Dec 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 132.841 (3)
+  esindex: 0.007
+  captures_list: 148.861
+  CDXLines.iter: 11.986 (3)
+  PetaboxLoader3.datanode: 166.99 (4)
+  exclusion.robots: 0.183
+  exclusion.robots.policy: 0.171
+  RedisCDXSource: 1.662
+  PetaboxLoader3.resolve: 17.189
+  load_resource: 87.037
+*/

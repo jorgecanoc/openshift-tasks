@@ -1,0 +1,53 @@
+/*tagsreplace.css v 1.0*/
+a,a:active,a:visited{color:#666666;text-decoration:none;}
+a:hover{text-decoration:underline !important;}
+body{margin:5px 0px 0px;}
+body,td,div,p,span,li{color:#000000;font-family:Verdana,Arial,Helvetica,sans-serif;font-style:normal;line-height:120%;text-decoration:none;}
+form{margin:0px;}
+h1:first-child,p,h2:first-child{margin-top:0;}
+h1{color:#000000;font-size:16px;font-style:normal;font-weight:bold;line-height:120%;margin-bottom:5px;margin-top:0px;text-decoration:none;}
+h2{color:#990000;font-size:12px;font-style:normal;font-weight:bold;line-height:120%;margin-bottom:5px;margin-top:0px;text-decoration:none;}
+h3{color:#000000;font-size:12px;font-style:normal;font-weight:normal;line-height:130%;margin-bottom:5px;margin-top:0px;text-decoration:none;}
+h4{color:#000000;font-size:14px;font-style:normal;font-weight:bold;line-height:120%;margin-bottom:5px;margin-top:0px;text-decoration:none;}
+img{border:0;}
+input,textarea,select{color:#666666;font:normal 11px Verdana,Arial,Helvetica,sans-serif;}
+input.boton,input.botonSmall{background:url(/web/20051231100336im_/http://www.banorte.com:80/images/btnback.jpg) #FFFFFF repeat-x;border:3px double #92A0AF;border-left-color:#CCCCCC;border-top-color:#CCCCCC;color:#990000;font:bold 10px Verdana,Helvetica,Arial,sans-serif;height:28px;}
+input.botonSmall{height:20px;}
+input.buscar2{background:#FFFFFF;border:1px solid #CCCCCC;color:#000000;font-size:9px;height:16px;width:100px;}
+input.login{border:1px solid #CCCCCC;color:#333333;font-size:10px;height:18px;padding-left:2px;padding-top:3px;width:100px;}
+input:focus,select:focus,textarea:focus,#divbuscar input:focus{background:#E9E9E9;color:#000000;}
+option.elementresaltado{background:#E6ECF2;font-style:bold;font-weight:bolder; !important;}
+p{line-height:120% !important;}
+select.buscar{color:#000000;font-size:9px;height:16px;}
+select.cotizador{border:solid 1px #CCCCCC;color:#000000;font:10px Verdana,Arial,Helvetica,sans-serif;height:16px;margin:0px;padding:1px 0px 0px 2px;vertical-align:middle;}
+ul.estructura li{color:#666666;font-size:11px;padding-bottom:5px;}
+ul.estructura li a{background:#F7F7F7;border:1px solid #F3F3F3;color:#333333;display:inline;font-size:12px;font-weight:bold;padding:4px;padding-bottom:3px;text-decoration:underline;}
+ul.estructura li div{color:#666666;font-size:11px;padding:10px 0 10px 0;}
+ul.flechaSmall{margin:5px 5px 10px 15px;}
+ul.flechaSmall li{display:block!important;list-style-image:url(/web/20051231100336im_/http://www.banorte.com:80/images/bullet12.gif)!important;margin-bottom:4px;}
+ul.li,ul.flecha li{font-size:11px;line-height:130%;list-style-image:url(/web/20051231100336im_/http://www.banorte.com:80/images/bullet2.gif) !important;}
+ul.linkImportante{background:#EAEEF1;display:block;margin-bottom:5px;padding-bottom:5px;padding-top:5px;}
+ul.linkImportante a,ul.linkImportante li{:;text-decoration:underline !important;}
+ul.linkImportante li{line-height:130%;list-style-image:url(/web/20051231100336im_/http://www.banorte.com:80/images/bullet9.gif)!important;}
+.labels{border-bottom-color:#D1DEE9;border-bottom-style:solid;border-bottom-width:1px;color:#333333;display:block;font:normal bold 11px/120% Verdana,Arial,Helvetica,sans-serif;padding-bottom:2px;text-align:right;}
+/*
+     FILE ARCHIVED ON 10:03:36 Dec 31, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:40:16 Dec 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 72.12 (3)
+  esindex: 0.008
+  captures_list: 90.909
+  CDXLines.iter: 13.566 (3)
+  PetaboxLoader3.datanode: 120.522 (4)
+  exclusion.robots: 0.197
+  exclusion.robots.policy: 0.18
+  RedisCDXSource: 1.61
+  PetaboxLoader3.resolve: 51.417
+  load_resource: 148.885
+*/
